@@ -1,0 +1,38 @@
+@fontsize:75;
+.h(@val){
+  height:@val/@fontsize*1rem;
+}
+.margin(@t,@r,@b,@l){
+  margin:@t/@fontsize*1rem @r/@fontsize*1rem @b/@fontsize*1rem @l/@fontsize*1rem;}
+.w(@val){
+  width:@val/@fontsize*1rem;
+}
+.border-radius(@val){
+  border-radius:@val/@fontsize*1rem;
+}
+.padding(@t,@r,@b,@l){
+  padding:@t/@fontsize*1rem @r/@fontsize*1rem @b/@fontsize*1rem @l/@fontsize*1rem;}
+.fs(@val){
+  font-size:@val/@fontsize*1rem;
+}
+.bdr(@x,@y){
+  border-radius:@x/@fontsize*1rem @y/@fontsize*1rem;
+}
+.lht(@val){
+  line-height:@val/@fontsize*1rem;
+}
+.top(@val){
+  top:@val/@fontsize*1rem;
+}
+.left(@val){
+  left:@val/@fontsize*1rem;
+}
+.bottom(@val){
+  bottom:@val/@fontsize*1rem;
+}
+.right(@val){
+  right:@val/@fontsize*1rem;
+}
+.transform(@d,@r){
+  transform:translateX(@d/@fontsize*1rem) rotateZ(@r*1deg) ;
+}
